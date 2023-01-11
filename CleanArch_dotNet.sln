@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Product", "Domain\Do
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D498E732-1E40-4BB8-88A3-F25E5D00484B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{78E66F84-FC6A-4B8A-8B4F-927D2C8263E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{E2AADE6A-5D73-4275-9351-C76E4FBB3946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{EA839803-0401-4362-9FF9-825A6AF5FEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Product", "Service\Service.Product\Service.Product.csproj", "{E7A99B56-7467-4A0D-9C2B-6FBB128135D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +22,10 @@ Global
 		{AF249BA4-5859-4A40-8305-49CD9E14A531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF249BA4-5859-4A40-8305-49CD9E14A531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF249BA4-5859-4A40-8305-49CD9E14A531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A99B56-7467-4A0D-9C2B-6FBB128135D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A99B56-7467-4A0D-9C2B-6FBB128135D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A99B56-7467-4A0D-9C2B-6FBB128135D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A99B56-7467-4A0D-9C2B-6FBB128135D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AF249BA4-5859-4A40-8305-49CD9E14A531} = {D498E732-1E40-4BB8-88A3-F25E5D00484B}
