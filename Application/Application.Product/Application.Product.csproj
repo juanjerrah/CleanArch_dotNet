@@ -6,9 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Cqrs\Commands" />
-      <Folder Include="Cqrs\Events" />
-    </ItemGroup>
-
 </Project>
